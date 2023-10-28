@@ -13,7 +13,7 @@ public class Grid {
         new Line(2, 4, 6)
     };
 
-    private final Tile[] _tiles = new Tile[9];
+    public final Tile[] _tiles = new Tile[9];
 
     public Grid() {
         for (int tx = 0; tx < 9; tx++) {
