@@ -21,6 +21,18 @@ public class Grid {
         }
     }
 
+    public boolean takeTile(
+        final int coord,
+        final Player player
+    ) {
+        if (_tiles[coord].getPlayer() != null) {
+            return false;
+        }
+
+        _tiles[coord].setPlayer(player);
+        return true;
+    }
+
     public boolean isGameOver() {
         if (whoWon() != null) {
             return true;
