@@ -1,3 +1,3 @@
 # ttt
-stuffs
-tic tac toe game
+stuffs:
+super simple tic tac toe game in java
